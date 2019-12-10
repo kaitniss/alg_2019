@@ -4,6 +4,7 @@ import java.util.Random;
 
 //2. Создать массив большого размера (миллион элементов).
 //3. Заполнить массив случайными числами.
+//
 public class Hw_2_23 {
     public static void main(String[] args) {
         MyArrayList<Integer> arr2 = new MyArrayList<>(1000000);

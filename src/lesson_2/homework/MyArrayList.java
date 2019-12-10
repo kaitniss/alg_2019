@@ -1,5 +1,5 @@
 package lesson_2.homework;
-
+//
 public class MyArrayList<Item extends Comparable> {
     private Item[] list; //приватное поле для хранения данных того типа который передадим
     private int size = 0; //приватная целая величина, скрлько эл-ов в массиве
