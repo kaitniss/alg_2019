@@ -3,7 +3,7 @@ package lesson_2.homework;
 import java.util.Random;
 //4. Написать методы, реализующие рассмотренные виды сортировок, и проверить скорость выполнения каждой.
 //1 000 000 сортируется бесконечно долго, взяла массив поменьше
-
+//
 public class Hw_2_4 {
     public static void main(String[] args) {
         MyArrayList<Integer> arr3 = new MyArrayList<>(100000);
