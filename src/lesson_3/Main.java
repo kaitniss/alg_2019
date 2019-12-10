@@ -1,9 +1,8 @@
 package lesson_3;
 
-import java.util.Comparator;
-
-public class Main {
+public class Main{
     public static void main(String[] args) {
+
 //        MyStack<Integer> stack = new MyStack<>();
 //
 //        stack.push(1);
@@ -38,21 +37,22 @@ public class Main {
 //        queue.insert(3);System.out.println(queue);
 //        queue.insert(4);System.out.println(queue);
 
-        MyPriorityQueue<Integer> mpq = new MyPriorityQueue<>(10, Comparator.reverseOrder());
-
-        mpq.insert(6);
-        System.out.println(mpq);
-        mpq.insert(9);
-        System.out.println(mpq);
-        mpq.insert(3);
-        System.out.println(mpq);
-        mpq.insert(8);
-        System.out.println(mpq);
-        mpq.insert(4);
-        System.out.println(mpq);
-
-        System.out.println(mpq.remove());
-        System.out.println(mpq);
+//        MyPriorityQueue<Integer> mpq = new MyPriorityQueue<>(10, Comparator.reverseOrder());
+//
+//        mpq.insert(6);
+//        System.out.println(mpq);
+//        mpq.insert(9);
+//        System.out.println(mpq);
+//        mpq.insert(3);
+//        System.out.println(mpq);
+//        mpq.insert(8);
+//        System.out.println(mpq);
+//        mpq.insert(4);
+//        System.out.println(mpq);
+//
+//        System.out.println(mpq.remove());
+//        System.out.println(mpq);
+        //
 
     }
 }
